@@ -1,3 +1,17 @@
+#The provided code seems to follow the steps outlined in the requirements. Let's review how each step is implemented:
+#Read JSON files from the mempool folder: The code iterates through each file in the mempool folder, reads the JSON data, and processes it.
+
+#Validate each transaction:
+
+#Check inputs are unspent and valid.
+#Verify signatures.
+#Ensure outputs do not exceed inputs.
+#The isValidTx function checks if the transaction's parents are included in the block. This ensures that all inputs are valid and unspent. However, the code does not explicitly verify signatures or check if outputs exceed inputs.
+
+#Generate a block header: The generateBlock function reads the JSON files, selects valid transactions based on their fees and weights, and calculates the total fee and weight of the block. It then constructs a block header with relevant information such as the number of transactions, total fee, total weight, and percentage of weight.
+
+#Write output to a file: The block header, along with the coinbase transaction and included transactions, is written to an output.txt file. Additionally, the included transactions are written to a separate block.txt file.
+
 import os
 import json
 
