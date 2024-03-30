@@ -72,6 +72,12 @@ Included Transactions:
 ...
 ```
 
+
+
+![image](https://github.com/SummerOfBitcoin/code-challenge-2024-saumyabharti294/assets/101875584/48735e30-26db-4d42-adbc-6db31302336f)
+
+
+
 ### Notes
 
 - The script assumes that the first transaction in each JSON file is the coinbase transaction.
