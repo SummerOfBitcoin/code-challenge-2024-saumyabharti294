@@ -39,15 +39,16 @@ git clone https://github.com/your-username/mempool-block-generator.git
 2. Navigate to the project directory:
 
 ```bash
-cd mempool-block-generator
+cd mempool
 ```
 
 3. Place your JSON files containing transaction data inside the `mempool` folder.
+4. Place the solution.py script inside the mempool folder containing all the JSON files.
 
-4. Execute the script:
+5. Execute the script:
 
 ```bash
-python main.py
+python mempool/solution.py
 ```
 
 5. Check the `output.txt` file generated in the project directory for the block headers and included transactions.
