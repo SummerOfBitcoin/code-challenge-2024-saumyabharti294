@@ -51,9 +51,10 @@ cd mempool
 python mempool/solution.py
 ```
 
-For windows user : run.bat file is used to run the code
+For windows user : `run.bat` file is used to run the code
 
-For Mac Users : run.sh file is used to run the code
+For Mac Users : `run.sh` file is used to run the code
+
 
 
 6. Check the `output.txt` file generated in the project directory for the block headers and included transactions. Or output is generated in the terminal itself.
